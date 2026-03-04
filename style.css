@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d0f14;
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #0a0c11;
+}
+nav a { color: #fff; margin-left: 15px; text-decoration: none; }
+.signup { background-color: #0f0; padding: 5px 10px; border-radius: 5px; }
+.hero { display: flex; padding: 50px; }
+.hero-text h1 { font-size: 36px; color: #0f0; }
+.buttons button { margin: 10px; padding: 10px 20px; border: none; cursor: pointer; }
+.buttons .primary { background-color: #0f0; color: #000; }
+.buttons .outline { border: 2px solid #0f0; background: transparent; color: #0f0; }
+.market table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+.market th, .market td { border: 1px solid #333; padding: 10px; text-align: center; }
+.green { color: #0f0; }
+.red { color: #f00; }
+.features .feature-cards { display: flex; justify-content: space-around; margin-top: 20px; }
+.features .card { padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px; width: 20%; text-align: center; }
+.statistics .stats { display: flex; justify-content: space-around; margin-top: 20px; }
+.registration form { display: flex; flex-direction: column; width: 300px; margin: auto; }
+.registration input, .registration button { margin: 10px 0; padding: 10px; }
+.registration button { background-color: #0f0; border: none; cursor: pointer; }
+footer { text-align: center; padding: 20px; background-color: #0a0c11; margin-top: 50px; }
